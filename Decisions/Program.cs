@@ -6,11 +6,17 @@ namespace Decisions
     {
         static void Main(string[] args)
         {
-            //Branching with the If decision statement and the conditional operator
-            Console.WriteLine("What flavour of ice cream do you want to purchase Chocolate, Banana, Vanlla or Cherry?");
-            string userInput = Console.ReadLine();
 
-            // string notification = "";
+            for (int i = 0; i< 10; i++)
+            {
+                Console.WriteLine(i.ToString());
+            }
+            Console.ReadLine();
+            // //Branching with the If decision statement and the conditional operator
+            // Console.WriteLine("What flavour of ice cream do you want to purchase Chocolate, Banana, Vanlla or Cherry?");
+            // string userInput = Console.ReadLine();
+
+            // // string notification = "";
         
             //     if (userInput =="Chocolate")
             //     //Opening and closing curly braces can be ommitted only if there is 1 line of code after the if statement.
@@ -22,10 +28,12 @@ namespace Decisions
             //     else
             //         notification = "I don't know what you're talking about";
                 
-                string notification = (userInput == "Strawberry") ? "Coconut" : "Cherry";
+                // string notification = (userInput == "Strawberry") ? "Coconut" : "Cherry";
 
-                Console.WriteLine("You won a {0} {1}", notification, userInput + " Congratulations");
-                Console.ReadLine();
+                // Console.WriteLine("You won a {0} {1}", notification, userInput + " Congratulations");
+                // Console.ReadLine();
+
+
         }
 
     }
