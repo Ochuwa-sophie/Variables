@@ -17,14 +17,14 @@ namespace ReadText
 
             while (line != null)
             {
-                line = Results.ReadLine;
+                line = Results.ReadLine();
                 if (line != null)
                 
                     Console.WriteLine(line);
                 
             }
             Results.Close();
-            Console.ReadLine;
+            Console.ReadLine();
         }
     }
 }

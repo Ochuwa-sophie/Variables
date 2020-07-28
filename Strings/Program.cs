@@ -1,5 +1,4 @@
-﻿using Internal;
-using System;
+﻿using System;
 
 namespace Strings
 {
@@ -8,10 +7,10 @@ namespace Strings
         static void Main(string[] args)
         {
             string newstring = "Go to c:\\drive";
-            string variable = "So called \"new\" girl";
+            // string variable = "So called \"new\" girl";
             
             Console.WriteLine(newstring);
-            Console.ReadLine;
+            Console.ReadLine();
         }
     }
 }
