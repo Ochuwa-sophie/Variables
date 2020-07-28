@@ -23,6 +23,7 @@ namespace ReadText
                     Console.WriteLine(line);
                 
             }
+            //Don't forget your brackets after Readline as it invokes the method.
             Results.Close();
             Console.ReadLine();
         }
